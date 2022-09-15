@@ -1,0 +1,73 @@
+{
+  "name": "@tincre/promo-sync",
+  "version": "0.0.1",
+  "scope": "@tincre",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tincre/promo-sync.git"
+  },
+  "homepage": "https://github.com/Tincre/promo-sync#readme",
+  "bugs": {
+    "url": "https://github.com/Tincre/promo-sync/issues"
+  },
+  "license": "MPL-2.0",
+  "author": "Jason R. Stevens, CFA on behalf of Tincre <jason@tincre.com> (https://tincre.com)",
+  "main": "dist/index.js",
+  "module": "dist/promo-sync.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "analyze": "size-limit --why",
+    "build": "dts build",
+    "lint": "dts lint",
+    "prepare": "dts build",
+    "size": "size-limit",
+    "start": "dts watch",
+    "test": "dts test --coverage"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "dts lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "jest": {},
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=12"
+  },
+  "size-limit": [
+    {
+      "path": "dist/promo-sync.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/promo-sync.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^8.0.1",
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/jest": "^29.0.0",
+    "dts-cli": "^1.6.0",
+    "husky": "^8.0.1",
+    "jest": "^29.0.1",
+    "size-limit": "^8.0.1",
+    "ts-jest": "^28.0.8",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@tincre/promo-sync-gtag": "^0.0.3",
+    "@tincre/promo-sync-meta": "^0.0.3"
+  }
+}
