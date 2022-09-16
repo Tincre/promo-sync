@@ -67,7 +67,7 @@
     "typescript": "^4.8.2"
   },
   "dependencies": {
-    "@tincre/promo-sync-gtag": "^0.0.3",
-    "@tincre/promo-sync-meta": "^0.0.3"
+    "@tincre/promo-sync-gtag": "^0.0.5",
+    "@tincre/promo-sync-meta": "^0.0.4"
   }
 }
