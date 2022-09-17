@@ -1582,15 +1582,15 @@
     "@size-limit/esbuild" "8.0.1"
     "@size-limit/file" "8.0.1"
 
-"@tincre/promo-sync-gtag@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@tincre/promo-sync-gtag/-/promo-sync-gtag-0.0.3.tgz#97721bb18e32d625f87161dfc256cb6bf67e5d29"
-  integrity sha512-0Y28Cyq8xo+5e8PlqQGytLR65oI6HKPZ5Tml05y6qbd3Rh2V5VZgyCGLvUOpFHRGBlOVn7wyLiJgaZYvKWYDGg==
+"@tincre/promo-sync-gtag@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@tincre/promo-sync-gtag/-/promo-sync-gtag-0.0.5.tgz#4067f35accb8621c73515751e07d2a6c0b109bea"
+  integrity sha512-ONLHGSsBJJ9yLKWK/hpmng67opZAIZQiL6Cxe1uIQ/Mv45urYYe9cIUdcMqmJCNP5ovHiwotgkl8uTX1cUMU5w==
 
-"@tincre/promo-sync-meta@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@tincre/promo-sync-meta/-/promo-sync-meta-0.0.3.tgz#713bdd2e26e6995ccf5cdc77c1c89ced22925903"
-  integrity sha512-evPXheG/cqTIfQBDlKLdUHOu7Kxo0wfXkfEbuhuPQm7O6ce/VlmjNvKpFLnCMrrHRw7AznARaC1aeSnFa+K8Dw==
+"@tincre/promo-sync-meta@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@tincre/promo-sync-meta/-/promo-sync-meta-0.0.4.tgz#9dcdace64af111ae7d89fd70e8efe6bda3192a90"
+  integrity sha512-rU3jwjd8cCyacmC4aVqVovC0wdDXNfPIFVGuMTmb2Ah82q1N+rzUK9d8LJJUzV/bgp5HAE3okNbjcNuLkLvkNg==
 
 "@tootallnate/once@1":
   version "1.1.2"
