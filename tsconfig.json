@@ -9,6 +9,14 @@
     "lib": [
       "dom",
       "es2021"
-    ]
+    ],
+    "paths": {
+      "@tincre/promo-sync-gtag": [
+        "node_modules/@tincre/promo-sync-gtag/dist/index"
+      ],
+      "@tincre/promo-sync-meta": [
+        "node_modules/@tincre/promo-sync-meta/dist/index"
+      ]
+    }
   }
 }
