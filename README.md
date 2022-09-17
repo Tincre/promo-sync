@@ -33,8 +33,42 @@ export default function PageOrComponent() {
 }
 ```
 
-#### Add the Tincre GTag 
-Follow the installation method below to install the Tincre Sync Gtag. This works alongside or without a current Google Tag Manager or Analytics installation. This handles Meta ad conversions, as well.
+#### Automagic Setup
+
+As we at [Tincre](https://tincre.com) are proud [Next.js](https://nextjs.org) users, below is a snippet you can use for performant Next.js sites.
+
+In your `pages/_app.{js,jsx,ts,tsx}` file:
+```jsx 
+import Script from 'next/script';
+import { promoGtag } from '@tincre/promo-sync-gtag';
+
+export default function MyApp({component, pageProps,}) {
+
+  return (
+    <>
+      <Script id="google-tag-manager" strategy={"afterInteractive"}>{promoGtag}</Script>
+      <Component {...pageProps} />
+    </>
+  )
+}
+```
+
+Or if you don't use React/Next.js:
+```js
+import { promoGtag } from '@tincre/promo-sync';
+
+<script type="module" src="https://unpkg.com/browse/@tincre/promo-sync@latest/dist/promo-sync.esm.js">
+  import { loadPromoGtag } from '@tincre/promo-sync';
+  loadPromoGtag();
+</script>
+```
+
+As usual you can grab our minified build and link to that as a universal script, loaded prior to the code snippet directly above (and without the `import` statement).
+
+#### Bare Metal Setup: Add the Tincre GTag 
+Follow the installation method below to install the Tincre Sync Gtag, if you need a custom installation. You do not need this step if you've installed via the #automagic-setup method above. 
+
+In addition, this works alongside or without a current Google Tag Manager or Analytics installation. This handles Meta ad conversions, as well.
 
 Our tag is **`GTM-57QS65R`**.
 
