@@ -11,7 +11,7 @@
     "url": "https://github.com/Tincre/promo-sync/issues"
   },
   "license": "MPL-2.0",
-  "author": "Jason R. Stevens, CFA on behalf of Tincre <jason@tincre.com> (https://tincre.com)",
+  "author": "Jason R. Stevens, CFA on behalf of Tincre <jason@tincre.com> (https://tincre.dev)",
   "main": "dist/index.js",
   "module": "dist/promo-sync.esm.js",
   "typings": "dist/index.d.ts",
