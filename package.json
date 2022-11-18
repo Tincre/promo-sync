@@ -42,7 +42,7 @@
   "jest": {},
   "peerDependencies": {},
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "size-limit": [
     {
@@ -68,6 +68,7 @@
   },
   "dependencies": {
     "@tincre/promo-sync-gtag": "^0.0.5",
-    "@tincre/promo-sync-meta": "^0.0.4"
+    "@tincre/promo-sync-meta": "^0.0.4",
+    "@tincre/promo-button-node": "^0.0.6"
   }
 }
