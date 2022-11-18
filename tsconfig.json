@@ -10,12 +10,16 @@
       "dom",
       "es2021"
     ],
+    "baseUrl": ".",
     "paths": {
       "@tincre/promo-sync-gtag": [
         "node_modules/@tincre/promo-sync-gtag/dist/index"
       ],
       "@tincre/promo-sync-meta": [
         "node_modules/@tincre/promo-sync-meta/dist/index"
+      ],
+      "@tincre/promo-node-utils": [
+        "node_modules/@tincre/promo-button-node/dist/index"
       ]
     }
   }
