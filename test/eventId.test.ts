@@ -1,4 +1,4 @@
-import { generateEventIdClientSide } from '../src/eventId';
+import { generateEventIdClientSide } from '../src/index';
 import crypto from 'crypto';
 
 beforeAll(() => {
