@@ -1,6 +1,6 @@
 {
   "name": "@tincre/promo-sync",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scope": "@tincre",
   "repository": {
     "type": "git",
@@ -68,7 +68,6 @@
   },
   "dependencies": {
     "@tincre/promo-sync-gtag": "^0.0.5",
-    "@tincre/promo-sync-meta": "^0.0.4",
-    "@tincre/promo-button-node": "^0.0.6"
+    "@tincre/promo-sync-meta": "^0.0.4"
   }
 }

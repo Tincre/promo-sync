@@ -5,4 +5,5 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  */
 export * from '@tincre/promo-sync-gtag';
+export { generateEventIdClientSide } from './eventId';
 export { promoPixel } from '@tincre/promo-sync-meta';
