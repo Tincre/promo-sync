@@ -68,6 +68,7 @@
   },
   "dependencies": {
     "@tincre/promo-sync-gtag": "^0.0.9",
-    "@tincre/promo-sync-meta": "^0.0.6"
+    "@tincre/promo-sync-meta": "^0.0.6",
+    "jsdom": "^22.1.0"
   }
 }
